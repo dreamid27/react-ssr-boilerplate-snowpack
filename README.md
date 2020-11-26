@@ -28,6 +28,10 @@ or with pnpm
 pnpm install
 ```
 
+```bash
+copy/rename .env.example to .env
+```
+
 
 ## Usage
 This app has flexible how to you running it. you can running on `server mode`, `client mode` or `client mode with snowpack`. I recommend you to running on `client mode` when you on development phase, that's make great experience when develop, or you can use `client mode with snowpack` that's very2 fast with HMR feature.
