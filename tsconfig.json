@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        // Define either ONE of these...
+        // 1. General support: matches everything relative to the project directory
+        "*": ["*"],
+        // 2. Explicit support: match only your mounted directories (Recommended!)
+        "@shared": ["./src/shared"],
+        "@pages": ["./src/pages"],
+      }
+    }
+  }

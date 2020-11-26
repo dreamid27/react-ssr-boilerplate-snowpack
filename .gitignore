@@ -1,0 +1,5 @@
+dist
+dist-client
+node_modules
+build
+.env
